@@ -1,0 +1,6 @@
+{
+    "name": "Festigo Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node",
+    "forwardPorts": [3000],
+    "postCreateCommand": "cd festigo && npm install"
+}
